@@ -2,6 +2,7 @@
 
 This project is a **Fruits Sales Dashboard** built in **Power BI** as part of my data analytics learning journey.  
 In this report, I focused on understanding **Average vs Total Sales**, using **YTD (Year-to-Date)** and **Running Total** to analyze performance over time, and applying **slicers** to make the dashboard interactive and closer to real business reporting.
+
 ![](Front-Page.png)
 
 ## 📌 Project Overview
