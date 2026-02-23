@@ -15,7 +15,7 @@ In this report, I focused on understanding **Average vs Total Sales**, using **Y
 
 ### 1) Average Sales Trend (Month & Year)
 - Tracks **Average Sales by Month & Year** to understand sales patterns over time.
-- 
+  
 ### 2) Time-Based Performance (Running Total + YTD)
 - **Running Total by Date:** Shows cumulative sales growth over time.
 - **Total YTD Sales:** Tracks year-to-date performance.
