@@ -1,25 +1,64 @@
 # 🍎 Fruits Sales Dashboard (Power BI)
 
 This project is a **Fruits Sales Dashboard** built in **Power BI** as part of my data analytics learning journey.  
-Main focus was on understanding **Average vs Total Sales**, implementing **YTD (Year-to-Date)** and **Running Total** for time-based analysis, and using **slicers** to make the report interactive and closer to real business reporting. :contentReference[oaicite:0]{index=0}
-
----
+In this report, I focused on understanding **Average vs Total Sales**, using **YTD (Year-to-Date)** and **Running Total** to analyze performance over time, and applying **slicers** to make the dashboard interactive and closer to real business reporting.
+![](Front-Page.png)
 
 ## 📌 Project Overview
-**Goal:** Fruits sales data ko clean, readable aur interactive dashboard me convert karna so that trends + store/customer performance easily analyze ho sake.  
-**Key Learnings:**  
-- Sirf numbers plot karna nahi — **Average vs Total** ka difference samajh ke use apply karna  
-- **YTD** aur **Running Total** se performance over time track karna  
-- Multiple slicers use karke report ko real-world business use-case jaisa banana :contentReference[oaicite:1]{index=1}
+**Goal:** Convert raw fruits sales data into a clean, readable, and interactive dashboard to track trends and performance.  
+**Key learning:** It’s not just about plotting numbers — it’s about choosing the right metric (average vs total) and analyzing time-based performance.
 
----
 
-## 🧩 Dashboard Highlights (What’s inside)
-Report me key visuals + analysis views include:
+
+## 🧩 Dashboard Highlights (What’s Inside)
 
 ### 1) Average Sales Trend (Month & Year)
-- **Average Sales by Month & Year** trend line to see overall pattern across timeline :contentReference[oaicite:2]{index=2}
+- Tracks **Average Sales by Month & Year** to understand sales patterns over time.
 
-📌 Add cropped screenshot:
-```md
-![Average Sales Trend](assets/average-sales-trend.png)
+![](assets/running-total-ytd.png)
+
+### 2) Time-Based Performance (Running Total + YTD)
+- **Running Total by Date:** Shows cumulative sales growth over time.
+- **Total YTD Sales:** Tracks year-to-date performance.
+
+![](SUM-Average-Sales.png)
+
+
+### 3) Customer & Store Performance
+- **Average Sales by Customer:** Compare customer contribution using average sales.
+- **Top 5 Stores by Sales:** Identify best-performing stores.
+
+![](Sales%20Analysis.png)
+
+
+## 🎛️ Filters / Slicers Used
+To make the report interactive, I added slicers for:
+- Customer Name  
+- Brand Name  
+- Category Name  
+- Product Name  
+- Store Name  
+- Store Location  
+- Date Range  
+
+
+## 🔧 Workflow (What I Did)
+1. Loaded the dataset into **Power BI**
+2. Cleaned and prepared the data (basic transformations + structuring)
+3. Built time-based logic using **DAX**
+   - Created **Running Total**
+   - Created **YTD Sales**
+4. Designed visuals to analyze:
+   - Trends over time (Average Sales by Month/Year)
+   - Cumulative growth (Running Total)
+   - Current year progress (YTD)
+   - Customer & store rankings
+5. Added slicers to make the dashboard fully interactive
+
+
+## 🧠 Skills Used
+- Power BI (dashboard building + visual design)
+- Basic DAX (YTD, Running Total, measures)
+- Time intelligence concepts (YTD / cumulative tracking)
+- Slicers & interactivity
+- Data storytelling (clean, readable layout)
